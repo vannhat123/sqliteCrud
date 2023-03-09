@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
 import 'package:sqlite_crud/Users/login.dart';
-
 import 'Methods/provider.dart';
 
 void main() {
@@ -25,7 +23,7 @@ class MyApp extends StatelessWidget {
                 color: Colors.teal,
                 darkTheme: controller.darkLight? ThemeData.dark() : ThemeData.light(),
                 debugShowCheckedModeBanner: false,
-                title: 'Gadget Note',
+                title: 'Gadget Note App',
                 theme: ThemeData(
 
                   appBarTheme: const AppBarTheme(
