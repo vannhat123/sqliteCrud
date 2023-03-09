@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
                 color: Colors.teal,
                 darkTheme: controller.darkLight? ThemeData.dark() : ThemeData.light(),
                 debugShowCheckedModeBanner: false,
-                title: 'Gadget Note App',
+                title: 'Gadget Note',
                 theme: ThemeData(
 
                   appBarTheme: const AppBarTheme(
