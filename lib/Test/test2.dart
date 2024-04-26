@@ -10,10 +10,6 @@ class TestScreen2 extends StatefulWidget {
 class _TestScreen2State extends State<TestScreen2> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: InkWell(
-        child: Text('bbbbbb'),
-      ),
-    );
+    return Container();
   }
 }
