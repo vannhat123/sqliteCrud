@@ -11,7 +11,6 @@ class _TestScreen2State extends State<TestScreen2> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: BoxDecoration(color: Colors.red),
       child: Text('container'),
     );
   }
