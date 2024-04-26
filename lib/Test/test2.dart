@@ -8,6 +8,7 @@ class TestScreen2 extends StatefulWidget {
 }
 
 class _TestScreen2State extends State<TestScreen2> {
+  final bbbb = 'ccccc';
   @override
   Widget build(BuildContext context) {
     return Container(
